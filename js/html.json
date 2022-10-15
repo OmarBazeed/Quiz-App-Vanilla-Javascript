@@ -1,0 +1,22 @@
+[{
+    "question": "Why We Use <mark> Element ?",
+    "answer-1": "To Make Line Under Words",
+    "answer-2": "To Make Line Through Words",
+    "answer-3": "To Make Words As Marked With Color",
+    "answer-4": "To Make Words Bolder",
+    "right-ans": "To Make Words As Marked With Color"
+}, {
+    "question": "What Are The Parts Of Table ?",
+    "answer-1": "Header,Body,Footer",
+    "answer-2": "Nav,Aside,Section,Ul",
+    "answer-3": "Thead,Tbody,Tfoot",
+    "answer-4": "Ul,Li,A,Img",
+    "right-ans": "Thead,Tbody,Tfoot"
+}, {
+    "question": "What Is The Number Of Classes Which Element Can Carry ?",
+    "answer-1": "One Class",
+    "answer-2": "Two Classes",
+    "answer-3": "Less Than 5 Classes",
+    "answer-4": "NO Limit For Classes",
+    "right-ans": "NO Limit For Classes"
+}]

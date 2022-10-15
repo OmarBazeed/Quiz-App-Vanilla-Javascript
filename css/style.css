@@ -1,0 +1,164 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: tahoma;
+}
+
+:root {
+    --main-color: #03a9f4a3;
+}
+
+
+/* Start Quiz App  */
+
+.Quiz-App-parent {
+    text-align: center;
+    margin: 30px auto;
+    max-width: 1250px;
+}
+
+.Quiz-App-parent .quiz-info {
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    background: aliceblue;
+    align-items: center;
+    padding: 0 15px;
+    font-size: 25px;
+    margin-bottom: 0;
+}
+
+.Quiz-App-parent .quiz-info .info-type select {
+    padding: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    width: 200px;
+    background: aquamarine;
+    outline: none;
+}
+
+.info-num span {
+    color: tomato;
+    font-weight: bold;
+}
+
+.qustions-container {
+    width: 100%;
+    background-color: cornsilk;
+    padding: 10px;
+    font-size: 24px;
+    font-family: monospace;
+    text-transform: capitalize;
+    font-weight: bold;
+    line-height: 2;
+}
+
+.qustions-container div {
+    margin-bottom: 20px;
+    padding: 5px 0;
+    font-family: none;
+    line-height: normal;
+    margin-top: 30px;
+}
+
+.qustions-container div p {
+    margin-bottom: 15px;
+    font-size: 35px;
+    font-weight: bold;
+    display: inline;
+}
+
+.qustions-container div p:first-of-type {
+    background: radial-gradient(#ff5722, #03a9f4b8);
+    border-radius: 5px;
+    padding: 10px;
+    filter: drop-shadow(2px 4px 6px black);
+}
+
+.qustions-container div p.tCount {
+    color: #2196f3;
+    margin-left: 50px;
+}
+
+.the-question {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    flex-wrap: wrap;
+}
+
+.the-question span {
+    padding: 10px 4px;
+    background: transparent;
+    text-align: center;
+    font-size: 17px;
+    border-radius: 5px;
+    color: black;
+    cursor: pointer;
+    opacity: .7;
+    border: 1px solid black;
+    box-shadow: 0 0 2px 1px;
+    margin-top: 5px;
+    flex: 1;
+    margin-right: 15px;
+}
+
+.the-question span.active {
+    opacity: 1;
+    background: linear-gradient(to right, #e947c0c7, #00000096);
+}
+
+.the-question span.right {
+    background: linear-gradient(to right, #35f17dae, #00000096);
+    opacity: 1;
+}
+
+.the-question span.bad {
+    background: linear-gradient(to right, #e44210d6, #fe0000f0);
+    opacity: 1;
+}
+
+.marks {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 5px;
+    background: aliceblue;
+}
+
+.marks .correct span,
+.marks .wrong span {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.marks .correct span {
+    color: #009688;
+}
+
+.marks .wrong span {
+    color: #f44336;
+}
+
+.chosen {
+    background-color: linear-gradient(to right, #e947c0c7, #00000096);
+}
+
+.weakLevel {
+    filter: blur(1px);
+}
+
+.meduimLevel {
+    text-shadow: 5px 20px 20px #ff5722;
+}
+
+.perfectLevel {
+    mix-blend-mode: color-burn;
+}
+
+
+/* End Quiz App  */

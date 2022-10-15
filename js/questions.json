@@ -1,0 +1,43 @@
+[{
+    "question": "Why We Use <br> Element ?",
+    "answer-1": "To Make Font Weight Bold",
+    "answer-2": "To Make Font Size Higher",
+    "answer-3": "To Make Horizontal Line",
+    "answer-4": "To Make Breakline",
+    "right-ans": "To Make Breakline"
+}, {
+    "question": "What API Shorts For ?",
+    "answer-1": "Application Protocol Interface",
+    "answer-2": "Application Programming Interface",
+    "answer-3": "Application port internet",
+    "answer-4": "Application port interferance",
+    "right-ans": "Application Programming Interface"
+}, {
+    "question": "What JSON Shorts For ?",
+    "answer-1": "Javascript Object Notation",
+    "answer-2": "Javascript Orianted Programming",
+    "answer-3": "Javascript Object Network",
+    "answer-4": "Javascript Or Network",
+    "right-ans": "Javascript Object Notation"
+}, {
+    "question": "What AJAX Shorts For ?",
+    "answer-1": "Applied Javasript And XML",
+    "answer-2": "Application Javasript And XML",
+    "answer-3": "Application Javasript AXis",
+    "answer-4": "Asynchronous Javascript And XML",
+    "right-ans": "Asynchronous Javascript And XML"
+}, {
+    "question": "What We Can Do With Array.unshift(Elements) ?",
+    "answer-1": "Add Elements To The End Of Array",
+    "answer-2": "Add Elements To The Center Of Array",
+    "answer-3": "Add Elements To The Start Of Array",
+    "answer-4": "Add Elements To AnyWhere Of Array",
+    "right-ans": "Add Elements To The Start Of Array"
+}, {
+    "question": "What Is The Number Of Values Of Box-Shadow Property ?",
+    "answer-1": "One Value",
+    "answer-2": "Two Values",
+    "answer-3": "Three Value",
+    "answer-4": "Four Values",
+    "right-ans": "Four Values"
+}]
